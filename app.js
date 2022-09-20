@@ -37,4 +37,10 @@ function calculationKrAge(ageOfForeigner) {
 
 const krAge = calculationKrAge(96);
 
-console.log(krAge);
+//console.log(krAge);
+
+//title 가져오기
+const title = document.getElementById(title);
+
+console.log(title.id);
+console.log(title.className);
